@@ -32,3 +32,15 @@ body {
 .col3 {
   @include grid-span(4, 8);
 }
+
+.page-frontt {
+  .aurora-section-first {
+    @include grid-span(4, 4);
+  }
+  .aurora-section-second {
+    @include grid-span(4, 1);
+  }
+  .aurora-section-third {
+    @include grid-span(4, 8);
+  }
+}
