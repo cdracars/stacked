@@ -29,8 +29,22 @@ body {
   @include grid-span(4, 1);
 }
 
+.col2, .aurora-section-second {
+  @include grid-span(3.5, 5);
+  line-height: 12px;
+}
+
 .col3 {
-  @include grid-span(4, 8);
+  @include grid-span(4, 8.5);
+}
+
+#page {
+  @include background-grid;
+}
+
+main {
+  margin: 0 auto;
+  max-width: 1500px;
 }
 
 .page-frontt {

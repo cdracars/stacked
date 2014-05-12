@@ -15,7 +15,7 @@
 // /
 $legacy-support-for-ie6: false;
 $legacy-support-for-ie7: false;
-$legacy-support-for-ie8: true;
+$legacy-support-for-ie8: false;
 
 
 // Font faces, stacks and sizes.
@@ -107,6 +107,7 @@ $include-clearfix     : false;
 
 $grids                : 12;
 $gutters              : 1/3;
+$output               : 'isolation';
 
 
 
