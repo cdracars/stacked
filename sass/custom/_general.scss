@@ -7,20 +7,27 @@ body {
   background-color: #16251f;
 }
 
-.button {
-  position: relative;
-  right: 0.5em;
-  text-align: right;
-  top: -3.5em;
-  margin-bottom: -1em;
+.view-front-page {
+  .views-row {
+    margin-bottom: 20px;
+    position: relative;
+  }
 
-  a {
-    text-decoration: none;
-    background-color: #1e4e40;
-    padding: 5px;
-
-    &:link {
-      color: #e2e6c9;
+  .button {
+    bottom: 0;
+    margin-bottom: 23px;
+    position: absolute;
+    right: 0.5em;
+    text-align: right;
+  
+    a {
+      text-decoration: none;
+      background-color: #1e4e40;
+      padding: 5px;
+  
+      &:link {
+        color: #e2e6c9;
+      }
     }
   }
 }
