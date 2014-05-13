@@ -49,12 +49,12 @@ main {
 
 .page-frontt {
   .aurora-section-first {
-    @include grid-span(4, 5);
+    @include grid-span(3.5, 5.25);
   }
   .aurora-section-second {
-    @include grid-span(4, 1);
+    @include grid-span(4.25, 1);
   }
   .aurora-section-third {
-    @include grid-span(4, 9);
+    @include grid-span(4.25, 9.75);
   }
 }
