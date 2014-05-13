@@ -1,6 +1,7 @@
 img {
   max-width: 100%;
   height: auto;
+  display: block;
 }
 
 body {
@@ -15,9 +16,9 @@ body {
 
   .button {
     bottom: 0;
-    margin-bottom: 23px;
+    margin-bottom: 17px;
     position: absolute;
-    right: 0.5em;
+    right: 11px;
     text-align: right;
   
     a {
@@ -32,19 +33,6 @@ body {
   }
 }
 
-.col1 {
-  @include grid-span(4, 1);
-}
-
-.col2, .aurora-section-second {
-  @include grid-span(3.5, 5);
-  line-height: 12px;
-}
-
-.col3 {
-  @include grid-span(4, 8.5);
-}
-
 #page {
   @include background-grid;
 }
@@ -54,25 +42,22 @@ main {
   max-width: 1500px;
 }
 
-.page-frontt {
-  .aurora-section-first {
-    text-align: center;
-  }
-  .aurora-section-second {
-    @include grid-span(12, 1);
+.aurora-section-first {
+  text-align: center;
+  
+  .pane-block {
+    display: inline-block;
   }
 }
 
 @media all and (min-width: 680px) {
-  .page-frontt {
-    .aurora-section-first {
-      @include grid-span(3.5, 5.25);
-    }
-    .aurora-section-second {
-      @include grid-span(4.25, 1);
-    }
-    .aurora-section-third {
-      @include grid-span(4.25, 8.75);
-    }
+  .aurora-section-first {
+    @include grid-span(3.5, 5.25);
+  }
+  .aurora-section-second {
+    @include grid-span(4.25, 1);
+  }
+  .aurora-section-third {
+    @include grid-span(4.25, 8.75);
   }
 }
