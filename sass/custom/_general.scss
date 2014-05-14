@@ -52,12 +52,12 @@ main {
 
 @media all and (min-width: 680px) {
   .aurora-section-first {
-    @include grid-span(3.5, 5.25);
+    @include grid-span(3.144, 4.32);
   }
   .aurora-section-second {
-    @include grid-span(4.25, 1);
+    @include grid-span(3.32, 1);
   }
   .aurora-section-third {
-    @include grid-span(4.25, 8.75);
+    @include grid-span(5.536, 7.464);
   }
 }
