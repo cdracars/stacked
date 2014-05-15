@@ -9,6 +9,11 @@
 @media all and (min-width: 680px) {
   .front .aurora-section-first {
     @include grid-span(3.144, 4.32);
+
+    .pane-block {
+      display: block;
+    }
+    
   }
   .front .aurora-section-second {
     @include grid-span(3.32, 1);
