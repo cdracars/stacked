@@ -43,6 +43,12 @@ main {
 }
 
 .aurora-section-first {
+<<<<<<< HEAD
+  text-align: center;
+  
+  .pane-block {
+    display: inline-block;
+  }
 }
 
 @media all and (min-width: 680px) {

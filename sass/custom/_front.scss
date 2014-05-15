@@ -1,0 +1,19 @@
+.front .aurora-section-first {
+  text-align: center;
+
+  .pane-block {
+    display: inline-block;
+  }
+}
+
+@media all and (min-width: 680px) {
+  .front .aurora-section-first {
+    @include grid-span(3.144, 4.32);
+  }
+  .front .aurora-section-second {
+    @include grid-span(3.32, 1);
+  }
+  .front .aurora-section-third {
+    @include grid-span(5.536, 7.464);
+  }
+}
