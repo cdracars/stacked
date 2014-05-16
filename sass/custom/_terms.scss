@@ -1,11 +1,22 @@
-.page-taxonomy h1#page-title {
-  position: absolute;
-  top: 1.5em;
-  left: 450px;
-  font-size: 5em;
-  color: white;
+.page-taxonomy {
+  h1#page-title {
+    position: absolute;
+    top: 1.5em;
+    left: 450px;
+    font-size: 5em;
+    color: white;
+  }
+  .views-row {
+    float: left;
+    width: 50%;
+  }
+  .views-row-odd {
+    clear: left;
+  }
 }
 
 header {
   background-color: black;
 }
+
+
