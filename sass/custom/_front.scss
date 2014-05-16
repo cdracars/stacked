@@ -51,6 +51,15 @@
   }
 }
 
+@media all and (min-width: 480px) {
+  .front .aurora-section-second {
+    @include grid-span(6, 1);
+  }
+  .front .aurora-section-third {
+    @include grid-span(6, 7);
+  }
+}
+
 @media all and (min-width: 800px) {
   .front .aurora-section-first {
     @include grid-span(3.144, 4.32);
