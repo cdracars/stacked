@@ -90,9 +90,13 @@ main {
 .front .aurora-section-first .pane-block {
   display: inline-block;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/mag\/sites\/all\/themes\/stacked\/sass\/custom\/_front\.scss}line{font-family:\000038}}
+.front .aurora-section-first .pane-multimedia-panel-pane-1 {
+  background-color: #f7f7da;
+}
 
 @media all and (min-width: 680px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/mag\/sites\/all\/themes\/stacked\/sass\/custom\/_front\.scss}line{font-family:\0000310}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/mag\/sites\/all\/themes\/stacked\/sass\/custom\/_front\.scss}line{font-family:\0000314}}
   .front .aurora-section-first {
     width: 24.62979%;
     float: left;
@@ -100,8 +104,12 @@ main {
     margin-left: 28.25532%;
     clear: none;
   }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/mag\/sites\/all\/themes\/stacked\/sass\/custom\/_front\.scss}line{font-family:\0000317}}
+  .front .aurora-section-first .pane-block {
+    display: block;
+  }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/mag\/sites\/all\/themes\/stacked\/sass\/custom\/_front\.scss}line{font-family:\0000313}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/mag\/sites\/all\/themes\/stacked\/sass\/custom\/_front\.scss}line{font-family:\0000322}}
   .front .aurora-section-second {
     width: 26.12766%;
     float: left;
@@ -110,7 +118,7 @@ main {
     clear: none;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/mag\/sites\/all\/themes\/stacked\/sass\/custom\/_front\.scss}line{font-family:\0000316}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/mag\/sites\/all\/themes\/stacked\/sass\/custom\/_front\.scss}line{font-family:\0000325}}
   .front .aurora-section-third {
     width: 44.98723%;
     float: right;
