@@ -36,15 +36,15 @@
     .views-row {
       text-align: left;
 
-      .views-field-field-image, .views-field-title {
-          padding: 10px;
-          vertical-align: top;
-          display: inline-block;
-          width: 102px;
+      .views-field-field-image {
+        float: left;
+        padding: 10px;
+        vertical-align: top;
+        width: 102px;
       }
 
-      .views-field-title {
-        width: 150px;
+      .views-field-nothing {
+        clear: left;
       }
     }
   }
