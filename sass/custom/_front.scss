@@ -6,7 +6,9 @@
     margin: 0 auto;
   }
   
-  .pane-block-1 {
+  .pane-block-1, 
+  .pane-block-2,
+  .pane-block-3 {
     display: none;
   }
 
@@ -52,7 +54,9 @@
   .front .aurora-section-first {
     @include grid-span(3.144, 4.32);
 
-    .pane-block-1 {
+    .pane-block-1, 
+    .pane-block-2,
+    .pane-block-3 {
       display: inherit;
     }
     .pane-block-5 {
