@@ -50,53 +50,55 @@ main {
   max-width: 1500px;
 }
 
-@media all and (min-width: 680px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/mag\/sites\/all\/themes\/stacked\/sass\/custom\/_general\.scss}line{font-family:\0000349}}
-  .aurora-section-first {
-    width: 24.62979%;
-    float: left;
-    margin-right: -100%;
-    margin-left: 28.25532%;
-    clear: none;
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/mag\/sites\/all\/themes\/stacked\/sass\/custom\/_general\.scss}line{font-family:\0000352}}
-  .aurora-section-first .pane-block {
-    display: block;
-  }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/mag\/sites\/all\/themes\/stacked\/sass\/custom\/_general\.scss}line{font-family:\0000356}}
-  .aurora-section-second {
-    width: 26.12766%;
-    float: left;
-    margin-right: -100%;
-    margin-left: 0%;
-    clear: none;
-  }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/mag\/sites\/all\/themes\/stacked\/sass\/custom\/_general\.scss}line{font-family:\0000359}}
-  .aurora-section-third {
-    width: 44.98723%;
-    float: right;
-    margin-left: 0;
-    margin-right: 0;
-    clear: none;
-  }
-}
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/mag\/sites\/all\/themes\/stacked\/sass\/custom\/_front\.scss}line{font-family:\000031}}
 .front .aurora-section-first {
   text-align: center;
+  margin-bottom: 20px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/mag\/sites\/all\/themes\/stacked\/sass\/custom\/_front\.scss}line{font-family:\000034}}
-.front .aurora-section-first .pane-block {
-  display: inline-block;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/mag\/sites\/all\/themes\/stacked\/sass\/custom\/_front\.scss}line{font-family:\000035}}
+.front .aurora-section-first .img {
+  margin: 0 auto;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/mag\/sites\/all\/themes\/stacked\/sass\/custom\/_front\.scss}line{font-family:\000038}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/mag\/sites\/all\/themes\/stacked\/sass\/custom\/_front\.scss}line{font-family:\000039}}
 .front .aurora-section-first .pane-multimedia-panel-pane-1 {
   background-color: #f7f7da;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/mag\/sites\/all\/themes\/stacked\/sass\/custom\/_front\.scss}line{font-family:\0000312}}
+.front .aurora-section-first .pane-multimedia-panel-pane-1 a:link, .front .aurora-section-first .pane-multimedia-panel-pane-1 a:visited {
+  color: #16251f;
+  text-decoration: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/mag\/sites\/all\/themes\/stacked\/sass\/custom\/_front\.scss}line{font-family:\0000316}}
+.front .aurora-section-first .pane-multimedia-panel-pane-1 a:link:hover, .front .aurora-section-first .pane-multimedia-panel-pane-1 a:visited:hover {
+  text-decoration: underline;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/mag\/sites\/all\/themes\/stacked\/sass\/custom\/_front\.scss}line{font-family:\0000321}}
+.front .aurora-section-first .pane-multimedia-panel-pane-1 ul {
+  list-style: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/mag\/sites\/all\/themes\/stacked\/sass\/custom\/_front\.scss}line{font-family:\0000324}}
+.front .aurora-section-first .pane-multimedia-panel-pane-1 ul li {
+  display: inline-block;
+  width: 25%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/mag\/sites\/all\/themes\/stacked\/sass\/custom\/_front\.scss}line{font-family:\0000330}}
+.front .aurora-section-first .pane-multimedia-panel-pane-1 .views-row {
+  text-align: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/mag\/sites\/all\/themes\/stacked\/sass\/custom\/_front\.scss}line{font-family:\0000333}}
+.front .aurora-section-first .pane-multimedia-panel-pane-1 .views-row .views-field-field-image, .front .aurora-section-first .pane-multimedia-panel-pane-1 .views-row .views-field-title {
+  padding: 10px;
+  vertical-align: top;
+  display: inline-block;
+  width: 102px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/mag\/sites\/all\/themes\/stacked\/sass\/custom\/_front\.scss}line{font-family:\0000340}}
+.front .aurora-section-first .pane-multimedia-panel-pane-1 .views-row .views-field-title {
+  width: 150px;
+}
 
-@media all and (min-width: 680px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/mag\/sites\/all\/themes\/stacked\/sass\/custom\/_front\.scss}line{font-family:\0000314}}
+@media all and (min-width: 800px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/mag\/sites\/all\/themes\/stacked\/sass\/custom\/_front\.scss}line{font-family:\0000348}}
   .front .aurora-section-first {
     width: 24.62979%;
     float: left;
@@ -104,12 +106,8 @@ main {
     margin-left: 28.25532%;
     clear: none;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/mag\/sites\/all\/themes\/stacked\/sass\/custom\/_front\.scss}line{font-family:\0000317}}
-  .front .aurora-section-first .pane-block {
-    display: block;
-  }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/mag\/sites\/all\/themes\/stacked\/sass\/custom\/_front\.scss}line{font-family:\0000322}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/mag\/sites\/all\/themes\/stacked\/sass\/custom\/_front\.scss}line{font-family:\0000351}}
   .front .aurora-section-second {
     width: 26.12766%;
     float: left;
@@ -118,7 +116,7 @@ main {
     clear: none;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/mag\/sites\/all\/themes\/stacked\/sass\/custom\/_front\.scss}line{font-family:\0000325}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/mag\/sites\/all\/themes\/stacked\/sass\/custom\/_front\.scss}line{font-family:\0000354}}
   .front .aurora-section-third {
     width: 44.98723%;
     float: right;

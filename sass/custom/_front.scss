@@ -8,6 +8,39 @@
 
   .pane-multimedia-panel-pane-1 {
     background-color: #f7f7da;
+
+    a:link, a:visited {
+      color: #16251f;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+
+    ul {
+      list-style: none;
+      
+      li {
+        display: inline-block;
+        width: 25%;
+      }
+    }
+
+    .views-row {
+      text-align: left;
+
+      .views-field-field-image, .views-field-title {
+          padding: 10px;
+          vertical-align: top;
+          display: inline-block;
+          width: 102px;
+      }
+
+      .views-field-title {
+        width: 150px;
+      }
+    }
   }
 }
 
