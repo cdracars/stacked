@@ -1,12 +1,17 @@
 .front .aurora-section-first {
-  background: #000;
   text-align: center;
   margin-bottom: 20px;
 
   img {
     margin: 0 auto;
   }
-  
+
+  .pane-block-1,
+  .pane-block-5 {
+    background: #000;
+    margin-bottom: 15px;
+  }
+
   .pane-block-1, 
   .pane-block-2,
   .pane-block-3 {

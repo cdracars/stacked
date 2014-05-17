@@ -9,10 +9,15 @@
   .views-row-odd {
     @include grid-span(6, 1);
     clear: left;
+    margin-bottom: 20px;
   }
   .views-row-even {
     @include grid-span(6, 7);
     clear: right;
+    margin-bottom: 20px;
+  }
+  .views-field-view-node {
+    text-align: right;
   }
 }
 
