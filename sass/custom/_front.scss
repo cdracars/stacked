@@ -55,6 +55,10 @@
   }
 }
 
+.pane-multimedia-panel-pane-1 .pager {
+  margin-bottom: 0;
+}
+
 @media all and (min-width: 480px) {
   .front .aurora-section-second {
     @include grid-span(6, 1);
