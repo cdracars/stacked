@@ -37,9 +37,12 @@
     p:nth-last-child(1) {
       margin-bottom: 0;
     }
-  }
-  .views-field-view-node {
-    text-align: right;
+    .link {
+      text-align: right;
+      a {
+        color: #000;
+      }
+    }
   }
 }
 
