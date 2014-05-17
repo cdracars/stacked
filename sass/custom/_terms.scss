@@ -26,8 +26,17 @@
       text-decoration: none;
     }
   }
-  .views-field-body {
+  
+  .views-field-nothing {
     background: rgba(255,255,255,.45);
+    padding: 10px;
+
+    p:first-child {
+      margin-top: 0;
+    }
+    p:nth-last-child(1) {
+      margin-bottom: 0;
+    }
   }
   .views-field-view-node {
     text-align: right;
@@ -37,5 +46,15 @@
 header {
   background-color: black;
 }
+
+
+
+
+
+
+
+
+
+
 
 
