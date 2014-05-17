@@ -8,6 +8,7 @@
   }
   .views-row-odd {
     @include grid-span(6, 1);
+    clear: left;
   }
   .views-row-even {
     @include grid-span(6, 7);
