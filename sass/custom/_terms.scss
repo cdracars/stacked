@@ -12,6 +12,7 @@
   }
   .views-row-even {
     @include grid-span(6, 7);
+    clear: right;
   }
 }
 
