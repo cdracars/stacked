@@ -6,15 +6,17 @@
     font-size: 5em;
     color: white;
   }
+  .views-row {
+    margin-bottom: 20px;
+    position: relative;
+  }
   .views-row-odd {
     @include grid-span(6, 1);
     clear: left;
-    margin-bottom: 20px;
   }
   .views-row-even {
     @include grid-span(6, 7);
     clear: right;
-    margin-bottom: 20px;
   }
   .views-field-title {
     background: #0C5446;
@@ -23,6 +25,9 @@
       color: #FFF;
       text-decoration: none;
     }
+  }
+  .views-field-body {
+    background: rgba(255,255,255,.45);
   }
   .views-field-view-node {
     text-align: right;
