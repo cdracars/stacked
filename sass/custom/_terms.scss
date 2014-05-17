@@ -6,12 +6,11 @@
     font-size: 5em;
     color: white;
   }
-  .views-row {
-    float: left;
-    width: 50%;
-  }
   .views-row-odd {
-    clear: left;
+    @include grid-span(6, 1);
+  }
+  .views-row-even {
+    @include grid-span(6, 7);
   }
 }
 
