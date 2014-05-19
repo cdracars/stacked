@@ -26,7 +26,7 @@ body {
       background-color: #1e4e40;
       padding: 5px;
   
-      &:link {
+      &:link, &:visited {
         color: #e2e6c9;
       }
     }
