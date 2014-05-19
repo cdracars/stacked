@@ -1,8 +1,16 @@
 .page-node {
   #main {
     background: #FFF;
+    padding: 15px;
   }
-  #block-system-main {
-    margin: 0 15px;
+}
+
+.node-type-article {
+  #page-title {
+    display: none;
+  }
+  .pane-article-node-article-title h1 {
+    font-size: 1.5em;
+    margin: 0;
   }
 }
