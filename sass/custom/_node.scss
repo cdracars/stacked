@@ -10,8 +10,18 @@
   #page-title {
     display: none;
   }
-  .pane-article-node-article-title h1 {
-    font-size: 1.5em;
-    margin: 0;
+  .pane-article-node-article-title {
+    clear: left;
+
+    h1 {
+      font-size: 1.5em;
+      margin: 0;
+    }
+  }
+  .pane-node-field-image {
+    @include grid-span(8, 1);
+  }
+  .social-icons {
+    @include grid-span(4, 9);
   }
 }
