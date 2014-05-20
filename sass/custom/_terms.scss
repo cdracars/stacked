@@ -2,21 +2,12 @@
   h1#page-title {
     position: absolute;
     top: 1.5em;
-    left: 450px;
     font-size: 5em;
     color: white;
   }
   .views-row {
     margin-bottom: 20px;
     position: relative;
-  }
-  .views-row-odd {
-    @include grid-span(6, 1);
-    clear: left;
-  }
-  .views-row-even {
-    @include grid-span(6, 7);
-    clear: right;
   }
   .views-field-title {
     background: #0C5446;
@@ -57,14 +48,33 @@ header {
   background-color: black;
 }
 
+@media all and (max-width: 481px) {
+  .page-taxonomy {
+    .views-field-nothing {
+      display: none !important;
+    }
+  }
+}
 
+@media all and (min-width: 770px) {
+  .page-taxonomy {
+    h1#page-title {
+      top: 1.5em;
+      left: 450px;
+      color: white;
+    }
+  }
+}
 
-
-
-
-
-
-
-
-
-
+@media all and (min-width: 1200px) {
+  .page-taxonomy {
+    .views-row-odd {
+      @include grid-span(6, 1);
+      clear: left;
+    }
+    .views-row-even {
+      @include grid-span(6, 7);
+      clear: right;
+    }
+  }
+}
