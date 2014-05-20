@@ -19,9 +19,9 @@
     }
   }
   .pane-node-field-image {
-    @include grid-span(8, 1);
+    @include grid-span(7, 1);
   }
-  .social-icons {
-    @include grid-span(4, 9);
+  .pane-related-articles-related-articles {
+    @include grid-span(5.5, 8.5);
   }
 }
