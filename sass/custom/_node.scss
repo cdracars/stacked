@@ -27,12 +27,7 @@
       margin: 0;
     }
   }
-  .pane-node-field-image {
-    @include grid-span(7, 1);
-  }
   .pane-related-articles-related-articles {
-    @include grid-span(5, 8);
-
     .pane-title {
       margin: 0;
       padding: 0 5px;
@@ -47,6 +42,17 @@
         font-weight: bold;
         text-decoration: none;
       }
+    }
+  }
+}
+
+@media all and (min-width: 1120px) {
+  .node-type-article {
+    .pane-node-field-image {
+      @include grid-span(7, 1);
+    }
+    .pane-related-articles-related-articles {
+      @include grid-span(5, 8);
     }
   }
 }
