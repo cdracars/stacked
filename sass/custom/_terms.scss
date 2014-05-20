@@ -1,10 +1,10 @@
 .page-taxonomy {
   #main {
-    margin: 112px 0 10px;
+    margin: 83px 0 10px;
   }
   h1#page-title {
     color: white;
-    font-size: 5em;
+    font-size: 3em;
     line-height: 0.9em;
     margin: 20px 0;
     position: absolute;
@@ -57,6 +57,17 @@ header {
   .page-taxonomy {
     .views-field-nothing {
       display: none !important;
+    }
+  }
+}
+
+@media all and (min-width: 480px) {
+  .page-taxonomy {
+    #main {
+      margin: 112px 0 10px;
+    }
+    h1#page-title {
+    font-size: 5em;
     }
   }
 }
