@@ -1,9 +1,13 @@
 .page-taxonomy {
+  #main {
+    margin: 10px;
+  }
   h1#page-title {
-    position: absolute;
-    top: 1.5em;
-    font-size: 5em;
     color: white;
+    font-size: 5em;
+    line-height: 0.9em;
+    margin: 20px 0;
+    position: absolute;
   }
   .views-row {
     margin-bottom: 20px;
@@ -46,6 +50,7 @@
 
 header {
   background-color: black;
+  position: relative;
 }
 
 @media all and (max-width: 481px) {
@@ -58,8 +63,11 @@ header {
 
 @media all and (min-width: 770px) {
   .page-taxonomy {
+    #main {
+      margin: 10px 0;
+    }
     h1#page-title {
-      top: 1.5em;
+      bottom: 0;
       left: 450px;
       color: white;
     }
@@ -68,6 +76,9 @@ header {
 
 @media all and (min-width: 1200px) {
   .page-taxonomy {
+    #main {
+      margin: 0;
+    }
     .views-row-odd {
       @include grid-span(6, 1);
       clear: left;
