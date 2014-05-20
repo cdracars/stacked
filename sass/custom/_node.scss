@@ -10,11 +10,20 @@
   #page-title {
     display: none;
   }
+  h1 {
+    font-size: 1.5em;
+  }
+  h2 {
+    font-size: 1.3em;
+  }
+  h3 {
+    font-size: 1.2em;
+  }
+  
   .pane-article-node-article-title {
     clear: left;
 
     h1 {
-      font-size: 1.5em;
       margin: 0;
     }
   }
