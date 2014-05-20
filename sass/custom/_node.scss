@@ -32,5 +32,12 @@
   }
   .pane-related-articles-related-articles {
     @include grid-span(5, 8);
+
+    .pane-title {
+      margin: 0;
+    }
+    .views-row {
+      background: #16251f;
+    }
   }
 }
