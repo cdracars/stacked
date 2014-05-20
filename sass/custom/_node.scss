@@ -21,6 +21,20 @@
     font-size: 1.2em;
   }
   
+  .pane-article-node-node-menu {
+    position: absolute;
+    top: -47px;
+
+    .views-field {
+      display: inline;
+      font-weight: bold;
+      margin-right: 15px;
+      a {
+        color: #F7F7DA;
+        text-decoration: none;
+      }
+    }
+  }
   .pane-article-node-article-title {
     clear: left;
 
@@ -43,6 +57,15 @@
         font-weight: bold;
         text-decoration: none;
       }
+    }
+  }
+}
+
+@media all and (min-width: 750px) {
+  .node-type-article {
+    .pane-article-node-node-menu {
+      left: 410px;
+      top: -62px;
     }
   }
 }
