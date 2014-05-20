@@ -31,6 +31,6 @@
     @include grid-span(7, 1);
   }
   .pane-related-articles-related-articles {
-    @include grid-span(5.5, 8.5);
+    @include grid-span(5, 8);
   }
 }
