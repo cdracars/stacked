@@ -22,7 +22,7 @@
     font-size: 1.2em;
   }
   
-  .pane-node-node-node-menu {
+  .pane-node-node-menu {
     position: absolute;
     top: -47px;
 
@@ -68,7 +68,7 @@
 @media all and (min-width: 750px) {
   .node-type-article,
   .node-type-multimedia  {
-    .pane-node-node-node-menu {
+    .pane-node-node-menu {
       .views-field-nothing {
         display: inline;
       }
@@ -84,7 +84,7 @@
   }
   .node-type-article,
   .node-type-multimedia  {
-    .pane-node-node-node-menu {
+    .pane-node-node-menu {
       left: 410px;
       top: -62px;
     }
