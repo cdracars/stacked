@@ -80,16 +80,6 @@
   }
 }
 
-@media all and (min-width: 650px) {
-  .node-type-article,
-  .node-type-multimedia  {
-    .pane-node-field-video {
-      float: left;
-      margin: 16px 15px 0 0;
-    }
-  }
-}
-
 @media all and (min-width: 750px) {
   .page-node {
     #main {
@@ -101,6 +91,16 @@
     .pane-node-node-menu {
       left: 410px;
       top: -62px;
+    }
+  }
+}
+
+@media all and (min-width: 960px) {
+  .node-type-article,
+  .node-type-multimedia  {
+    .pane-node-field-video {
+      float: left;
+      margin: 16px 15px 0 0;
     }
   }
 }
