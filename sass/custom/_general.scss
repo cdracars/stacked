@@ -33,6 +33,15 @@ body {
   }
 }
 
+ul.pager {
+  list-style: none;
+  
+  li {
+    display: inline-block;
+    width: 25%;
+  }
+}
+
 #page {
   @include background-grid;
 }
