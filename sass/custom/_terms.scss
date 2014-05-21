@@ -88,7 +88,7 @@ header {
 @media all and (min-width: 1200px) {
   .page-taxonomy {
     #main {
-      margin: 0;
+      margin: 10px 0;
     }
     .views-row-odd {
       @include grid-span(6, 1);
@@ -97,6 +97,15 @@ header {
     .views-row-even {
       @include grid-span(6, 7);
       clear: right;
+    }
+    .panel-display {
+      margin-bottom: 40px; position: relative;
+    }
+    ul.pager {
+        bottom: -33px;
+        left: 39%;
+        position: absolute;
+        width: 350px;
     }
   }
 }
