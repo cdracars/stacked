@@ -101,6 +101,9 @@ header {
     .panel-display {
       margin-bottom: 40px; position: relative;
     }
+    .view-listings {
+      position: inherit;
+    }
     ul.pager {
         bottom: -33px;
         left: 39%;
