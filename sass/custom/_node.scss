@@ -66,13 +66,23 @@
   }
 }
 
-@media all and (min-width: 750px) {
+@media all and (min-width: 480px) {
   .node-type-article,
   .node-type-multimedia  {
     .pane-node-node-menu {
       .views-field-nothing {
         display: inline;
       }
+    }
+  }
+}
+
+@media all and (min-width: 650px) {
+  .node-type-article,
+  .node-type-multimedia  {
+    .pane-node-field-video {
+      float: left;
+      margin: 16px 15px 0 0;
     }
   }
 }
