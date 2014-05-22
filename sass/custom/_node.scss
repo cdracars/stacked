@@ -47,8 +47,11 @@
       margin: 0;
     }
   }
-  .pane-node-field-video {
+  .pane-node-node-video {
     margin: 16px 0 0;
+    iframe {
+      max-width: 100%;
+    }
   }
   .pane-related-nodes-related-nodes {
     .pane-title {
@@ -98,7 +101,7 @@
 @media all and (min-width: 960px) {
   .node-type-article,
   .node-type-multimedia  {
-    .pane-node-field-video {
+    .pane-node-node-video {
       float: left;
       margin: 16px 15px 0 0;
     }
