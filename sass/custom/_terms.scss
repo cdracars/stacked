@@ -96,10 +96,12 @@ header {
     .views-row-odd {
       @include grid-span(6, 1);
       clear: left;
+      min-height: 403px
     }
     .views-row-even {
       @include grid-span(6, 7);
       clear: right;
+      min-height: 403px
     }
     .panel-display {
       margin-bottom: 40px; position: relative;
