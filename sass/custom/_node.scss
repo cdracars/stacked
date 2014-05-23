@@ -24,7 +24,7 @@
     font-size: 1.2em;
   }
   
-  .block-views-node-block-1 {
+  #block-views-node-block-1 {
 
     .views-field {
       display: inline;
@@ -75,7 +75,7 @@
 @media all and (min-width: 480px) {
   .node-type-article,
   .node-type-multimedia  {
-    .block-views-node-block-1 {
+    #block-views-node-block-1 {
       .views-field-nothing {
         display: inline;
       }
@@ -91,7 +91,7 @@
   }
   .node-type-article,
   .node-type-multimedia  {
-    .block-views-node-block-1 {
+    #block-views-node-block-1 {
       float: left;
     }
   }
