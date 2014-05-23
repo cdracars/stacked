@@ -36,7 +36,7 @@
       a {
         color: #F7F7DA;
         text-decoration: none;
-        :hover {
+        &:hover {
           text-decoration: underline;
         }
       }
@@ -73,7 +73,7 @@
         color: #CBC6AA;
         font-weight: bold;
         text-decoration: none;
-        :hover {
+        &:hover {
           text-decoration: underline;
         }
       }
