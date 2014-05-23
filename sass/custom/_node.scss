@@ -36,6 +36,9 @@
       a {
         color: #F7F7DA;
         text-decoration: none;
+        :hover {
+          text-decoration: underline;
+        }
       }
     }
     .views-field-nothing {
@@ -70,6 +73,9 @@
         color: #CBC6AA;
         font-weight: bold;
         text-decoration: none;
+        :hover {
+          text-decoration: underline;
+        }
       }
     }
   }
