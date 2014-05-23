@@ -1,7 +1,7 @@
 .page-node {
   #main {
     background: #F7F7DA;
-    margin: 40px auto 15px;
+    margin: 15px auto;
     padding: 15px;
     .block-system {
       position: relative;
@@ -25,6 +25,9 @@
   }
   
   #block-views-node-block-1 {
+    background: #16251F
+    margint-top: 15px;
+    text-align: center;
 
     .views-field {
       display: inline;
@@ -84,18 +87,16 @@
 }
 
 @media all and (min-width: 750px) {
-  .page-node {
-    #main {
-      margin: 15px auto;
-    }
-  }
   .node-type-article,
   .node-type-multimedia  {
     #block-views-node-block-1 {
+      background: none;
       bottom: 40px;
       float: left;
+      margin: 0;
       left: 425px;
       position: relative;
+      text-align: left;
     }
   }
 }
