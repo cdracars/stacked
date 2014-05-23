@@ -3,7 +3,9 @@
     background: #F7F7DA;
     margin: 40px auto 15px;
     padding: 15px;
-    position: relative;
+    .block-system {
+      position: relative;
+    }
   }
 }
 
@@ -22,9 +24,7 @@
     font-size: 1.2em;
   }
   
-  .pane-node-node-menu {
-    position: absolute;
-    top: -47px;
+  .block-views-node-block-1 {
 
     .views-field {
       display: inline;
@@ -75,7 +75,7 @@
 @media all and (min-width: 480px) {
   .node-type-article,
   .node-type-multimedia  {
-    .pane-node-node-menu {
+    .block-views-node-block-1 {
       .views-field-nothing {
         display: inline;
       }
@@ -91,9 +91,8 @@
   }
   .node-type-article,
   .node-type-multimedia  {
-    .pane-node-node-menu {
-      left: 410px;
-      top: -62px;
+    .block-views-node-block-1 {
+      float: left;
     }
   }
 }
