@@ -60,6 +60,8 @@
     }
   }
   .pane-related-nodes-related-nodes {
+    margin-top: 15px;
+    
     .pane-title {
       margin: 0;
       padding: 0 5px;
@@ -125,6 +127,7 @@
     }
     .pane-related-nodes-related-nodes {
       @include grid-span(5, 8);
+      margin-top: 0;
       position: absolute;
       right: 0;
       top: 7px;
