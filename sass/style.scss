@@ -14,10 +14,6 @@
 //   compass extensions
 ////////////////////////
 @import 'config/config';
-@import 'custom/general';
-@import 'custom/front';
-@import 'custom/terms';
-@import 'custom/node';
 
 ////////////////////////
 // Import global elements
@@ -38,3 +34,11 @@
 ////////////////////////
 //@import 'components/tabs';
 //@import 'components/button';
+
+////////////////////////
+// Import custom
+////////////////////////
+@import 'custom/general';
+@import 'custom/front';
+@import 'custom/terms';
+@import 'custom/node';
