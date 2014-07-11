@@ -25,6 +25,7 @@
   .views-field-nothing {
     background: rgba(247,247,218,.8);
     bottom: 0;
+    display: none;
     position: absolute;
     width: 100%;
     
@@ -56,21 +57,17 @@ header {
   position: relative;
 }
 
-@media all and (max-width: 481px) {
-  .page-taxonomy {
-    .views-field-nothing {
-      display: none !important;
-    }
-  }
-}
-
-@media all and (min-width: 480px) {
+@media all and (min-width: 481px) {
   .page-taxonomy {
     #main {
       margin: 112px auto 10px;
     }
     h1#page-title {
     font-size: 5em;
+    }
+
+    .views-field-nothing {
+      display: block;
     }
   }
 }
@@ -96,12 +93,12 @@ header {
     .views-row-odd {
       @include grid-span(6, 1);
       clear: left;
-      min-height: 403px
+      min-height: 403px;
     }
     .views-row-even {
       @include grid-span(6, 7);
       clear: right;
-      min-height: 403px
+      min-height: 403px;
     }
     .panel-display {
       margin-bottom: 40px; position: relative;
