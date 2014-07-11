@@ -23,7 +23,11 @@
   h3 {
     font-size: 1.2em;
   }
-  
+
+  .menu li.first {
+    display: none;
+  }
+
   #block-views-node-block-1 {
     background: #16251F;
     padding-top: 15px;
