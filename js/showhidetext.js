@@ -10,14 +10,14 @@
 (function ($) {
   Drupal.behaviors.showhidetext = {
     attach: function (context, settings) {
-      console.log("Hello, world!");
-      $(".listing-text").toggle();
-      $(".view-listings").hover(
-      function() {
-        $(this).toggle();
-      }, function() {
-        $(this).toggle();
-      });
+      $(".listing-text").addClass('is-hidden');
+      $(".listing .views-row").hover(
+        function() {
+          $(this).find(".listing-text").addClass('is-shown');
+        }, function() {
+          $(this).find(".listing-text").addClass('is-hidden').removeClass('is-shown');
+        }
+      );
     }
   }
 })(jQuery);

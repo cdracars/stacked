@@ -1,3 +1,9 @@
+.front .pane-title {
+  background-color: #0C5446;
+  color: #e2e6c9;
+  padding: 10px 0;
+  margin-top: 30px;
+}
 .front .aurora-section-first {
   text-align: center;
   margin-bottom: 20px;
@@ -12,7 +18,7 @@
   }
 
   .pane-block-1 {
-    margin-bottom: 35px;
+    margin-bottom: 30px;
   }
 
   .pane-block-1, 
@@ -24,9 +30,16 @@
   .pane-multimedia-panel-pane-1 {
     background-color: #f7f7da;
 
+    .pager {
+      margin-bottom: 0;
+      a:link, a:visited {
+        color: #e2e6c9;
+      }
+    }
+
     a:link, a:visited {
-      color: #16251f;
       text-decoration: none;
+      color: #16251f;
 
       &:hover {
         text-decoration: underline;
@@ -55,12 +68,7 @@
 }
 
 .view-front-page .views-row {
-  margin-bottom: 35px;
-}
-
-.pane-multimedia-panel-pane-1 .pager {
-  margin-bottom: 0;
-  color: #000;
+  margin-bottom: 30px;
 }
 
 @media all and (min-width: 480px) {
