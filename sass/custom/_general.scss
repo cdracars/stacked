@@ -14,31 +14,6 @@ a {
   }
 }
 
-.view-front-page {
-  .views-row {
-    margin-bottom: 20px;
-    position: relative;
-  }
-
-  .button {
-    bottom: 0;
-    margin-bottom: 17px;
-    position: absolute;
-    right: 11px;
-    text-align: right;
-  
-    a {
-      text-decoration: none;
-      background-color: #1e4e40;
-      padding: 5px;
-  
-      &:link, &:visited {
-        color: #e2e6c9;
-      }
-    }
-  }
-}
-
 ul.pager {
   color: #F7F7DA;
   list-style: none;
