@@ -1,6 +1,7 @@
 node_modules/
-
+bower_components
 .sass-cache/
-
+npm-debug.log
 stylesheets/*.css
 stylesheets/
+*.iml
