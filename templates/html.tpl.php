@@ -56,8 +56,8 @@
 <?php print $page_top; ?>
 <?php print $page; ?>
 <?php print $page_bottom; ?>
-<script src='//172.16.15.151:3000/socket.io/socket.io.js'></script>
-<script>var ___socket___ = io.connect('http://172.16.15.151:3000');</script>
-<script src='//172.16.15.151:3001/client/browser-sync-client.0.7.7.js'></script>
+<script src='//192.168.13.16:3000/socket.io/socket.io.js'></script>
+<script>var ___socket___ = io.connect('http://192.168.13.16:3000');</script>
+<script src='//192.168.13.16:3001/client/browser-sync-client.0.7.7.js'></script>
 </body>
 </html>
