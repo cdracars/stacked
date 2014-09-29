@@ -13,7 +13,7 @@ var shell = require('gulp-shell');
 gulp.task('lint', function () {
   return gulp.src([
       paths.js + '/**/*.js',
-      //'!' + paths.js + '/**/*.js'
+      '!' + paths.js + '/**/*.js'
     ])
     .pipe(jshint())
     .pipe(jshint.reporter(stylish))
@@ -46,7 +46,9 @@ gulp.task('browserSync', function () {
     paths.img + '/**/*',
     paths.fonts + '/**/*',
     paths.html + '/**/*.html',
-  ]);
+  ], {
+    proxy: '42.42.42.42'
+  });
 });
 
 //////////////////////////////

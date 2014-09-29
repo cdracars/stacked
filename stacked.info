@@ -12,25 +12,17 @@ regions[main_prefix]  = 'Main Region Prefix'
 regions[content]      = 'Main Region'
 regions[main_suffix]  = 'Main Region Suffix'
 regions[footer]       = 'Footer'
-
 ; ========================================
 ; Stylesheets
 ; ========================================
 
-stylesheets[all][] = 'stylesheets/style.css'
-stylesheets[print][] = 'stylesheets/print.css'
-
-; If installed through Bower
-; stylesheets[all][] = 'components/formalize/assets/css/formalize.css'
+stylesheets[all][] = 'css/style.css'
+stylesheets[print][] = 'css/print.css'
 
 ; ========================================
 ; Scripts
 ; ========================================
-
-; If installed through Bower
-; scripts[] = 'components/formalize/assets/js/jquery.formalize.min.js'
 scripts[] = 'js/showhidetext.js'
-: scripts[] = 'js/testing.js'
 
 ; ========================================
 ; Modernizr
@@ -52,7 +44,6 @@ settings[default_favicon] = '1'
 settings[favicon_path] = ''
 settings[favicon_upload] = ''
 settings[hide_recomended_modules] = '0'
-settings[aurora_enable_chrome_frame] = '1'
 settings[aurora_min_ie_support] = '10'
 settings[aurora_html_tags] = '1'
 settings[aurora_typekit_id] = '0'
