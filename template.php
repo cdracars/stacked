@@ -6,16 +6,16 @@
  * @param $vars
  *   An array of variables to pass to the theme template.
  */
-function cube_stack_preprocess_maintenance_page(&$vars) {
+function stacked_preprocess_maintenance_page(&$vars) {
   // When a variable is manipulated or added in preprocess_html or
   // preprocess_page, that same work is probably needed for the maintenance page
   // as well, so we can just re-use those functions to do that work here.
-  // cube_stack_preprocess_html($vars);
-  // cube_stack_preprocess_page($vars);
+  // stacked_preprocess_html($vars);
+  // stacked_preprocess_page($vars);
 
   // This preprocessor will also be used if the db is inactive. To ensure your
   // theme is used, add the following line to your settings.php file:
-  // $conf['maintenance_theme'] = 'cube_stack';
+  // $conf['maintenance_theme'] = 'stacked';
   // Also, check $vars['db_is_active'] before doing any db queries.
 }
 
@@ -26,7 +26,7 @@ function cube_stack_preprocess_maintenance_page(&$vars) {
  *   An array to be output as yepnope testObjects.
  */
 /* -- Delete this line if you want to use this function
-function cube_stack_modernizr_load_alter(&$load) {
+function stacked_modernizr_load_alter(&$load) {
 
 }
 
@@ -37,7 +37,7 @@ function cube_stack_modernizr_load_alter(&$load) {
  *   An array of variables to pass to the theme template.
  */
 /* -- Delete this line if you want to use this function
-function cube_stack_preprocess_html(&$vars) {
+function stacked_preprocess_html(&$vars) {
 
 }
 
@@ -48,7 +48,7 @@ function cube_stack_preprocess_html(&$vars) {
  *   An array of variables to pass to the theme template.
  */
 /* -- Delete this line if you want to use this function
-function cube_stack_preprocess_page(&$vars) {
+function stacked_preprocess_page(&$vars) {
 
 }
 
@@ -59,7 +59,7 @@ function cube_stack_preprocess_page(&$vars) {
  *   An array of variables to pass to the theme template.
  */
 /* -- Delete this line if you want to use this function
-function cube_stack_preprocess_region(&$vars) {
+function stacked_preprocess_region(&$vars) {
 
 }
 // */
@@ -71,7 +71,7 @@ function cube_stack_preprocess_region(&$vars) {
  *   An array of variables to pass to the theme template.
  */
 /* -- Delete this line if you want to use this function
-function cube_stack_preprocess_block(&$vars) {
+function stacked_preprocess_block(&$vars) {
 
 }
 // */
@@ -83,7 +83,7 @@ function cube_stack_preprocess_block(&$vars) {
  *   An array of variables to pass to the theme template.
  */
 /* -- Delete this line if you want to use this function
-function cube_stack_preprocess_entity(&$vars) {
+function stacked_preprocess_entity(&$vars) {
 
 }
 // */
@@ -95,7 +95,7 @@ function cube_stack_preprocess_entity(&$vars) {
  *   An array of variables to pass to the theme template.
  */
 /* -- Delete this line if you want to use this function
-function cube_stack_preprocess_node(&$vars) {
+function stacked_preprocess_node(&$vars) {
   $node = $vars['node'];
 }
 // */
@@ -109,7 +109,7 @@ function cube_stack_preprocess_node(&$vars) {
  *   The name of the template being rendered ("field" in this case.)
  */
 /* -- Delete this line if you want to use this function
-function cube_stack_preprocess_field(&$vars, $hook) {
+function stacked_preprocess_field(&$vars, $hook) {
 
 }
 // */
@@ -121,7 +121,7 @@ function cube_stack_preprocess_field(&$vars, $hook) {
  *   An array of variables to pass to the theme template.
  */
 /* -- Delete this line if you want to use this function
-function cube_stack_preprocess_comment(&$vars) {
+function stacked_preprocess_comment(&$vars) {
   $comment = $vars['comment'];
 }
 // */
@@ -133,7 +133,7 @@ function cube_stack_preprocess_comment(&$vars) {
  *   An array of variables to pass to the theme template.
  */
 /* -- Delete this line if you want to use this function
-function cube_stack_preprocess_views_view(&$vars) {
+function stacked_preprocess_views_view(&$vars) {
   $view = $vars['view'];
 }
 // */
@@ -146,7 +146,7 @@ function cube_stack_preprocess_views_view(&$vars) {
  *   An array of all CSS items being requested on the page.
  */
 /* -- Delete this line if you want to use this function
-function cube_stack_css_alter(&$css) {
+function stacked_css_alter(&$css) {
 
 }
 // */
@@ -158,7 +158,7 @@ function cube_stack_css_alter(&$css) {
  *   An array of all JavaScript being presented on the page.
  */
 /* -- Delete this line if you want to use this function
-function cube_stack_js_alter(&$js) {
+function stacked_js_alter(&$js) {
 
 }
 // */
