@@ -49,15 +49,20 @@
       display: none;
     }
   }
+  .pane-node-title,
   .pane-node-node-title {
     clear: left;
     padding-top: 16px; 
+    font-weight: 700;
 
     h1 {
       margin: 0;
     }
   }
-  .pane-node-node-video {
+  .pane-node-title {
+    font-size: 1.5em;
+  }
+  .pane-node-field-video {
     margin: 16px 0 0;
     iframe {
       max-width: 100%;
@@ -116,7 +121,7 @@
 @media all and (min-width: 960px) {
   .node-type-article,
   .node-type-multimedia  {
-    .pane-node-node-video {
+    .pane-node-field-video {
       float: right;
       margin: 16px 0 0 15px;
     }
